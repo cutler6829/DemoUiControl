@@ -10,10 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
-        <activity android:name=".TextViewEx">
+        <activity android:name=".TextViewEx"></activity>
+        <activity android:name=".EditTextEx">
 
         </activity>
-        <activity android:name=".EditTextEx">
+        <activity android:name=".RadioButtenEx">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
