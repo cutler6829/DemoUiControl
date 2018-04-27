@@ -33,36 +33,48 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3">
 
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/rdbn1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="滿意" />
 
         <RadioButton
-            android:id="@+id/radioButton4"
+            android:id="@+id/rdbn2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="不滿意" />
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/rdbn3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="不滿意" />
+            android:text="不開心" />
     </RadioGroup>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/submit"
         android:layout_width="wrap_content"
         android:layout_height="55dp"
         android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Button"
+        android:text="送出"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        style="@style/AppTheme"
+        android:hint="顯示結果"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/submit" />
 
 </android.support.constraint.ConstraintLayout>
